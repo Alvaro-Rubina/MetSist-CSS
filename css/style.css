@@ -54,7 +54,7 @@ header {
     font-size: 2rem;
 }
 
-.lista_nav {
+.lista__nav {
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -117,6 +117,7 @@ header {
 
 .descripcion__banner {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 .button__banner {
@@ -187,7 +188,7 @@ header {
         grid-template-columns: repeat(1, 1fr);
     }   
 
-    .lista_nav {
+    .lista__nav {
         display: none;
     }
 
